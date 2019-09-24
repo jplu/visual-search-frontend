@@ -27,6 +27,7 @@
                 <v-row align="center" justify="center">
                   <v-col
                       v-for="image in images"
+                      :key="image"
                       class="d-flex child-flex"
                       cols="2"
                       align="center" justify="center"
